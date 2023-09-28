@@ -3,5 +3,52 @@ h1{
 }
 
 body{
-    background-color: black;
+    background-color: #1f1d1d;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+   float: left;
+   padding-left: 50px;
+}
+  
+li a {
+    font-family:'Inclusive Sans', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+ 
+li a:hover {
+    background-color: #1a1919;
+}
+
+.a_la_une{
+    /*image*/
+    background-image: url("Les-eveillees-film-Nina-Bouchaud-Cheval.jpg");
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+}
+
+.une_texte{
+    /*titre*/
+    text-align: center;
+    padding-top: 17%;
+    font-size: 250%;
+    padding-left: 80%;
+    font-family:'Inclusive Sans', sans-serif;
+    font-style: italic;
+    color: whitesmoke;
+
+}
+
+
