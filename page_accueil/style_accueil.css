@@ -76,6 +76,7 @@ body{
 /*TITRES*/
 #titre {
     color: white;
+    padding: 20px;
 }
 
 .titre_pair{
@@ -112,5 +113,11 @@ body{
     background-image: url(Les-eveillees-film-Nina-Bouchaud-Cheval.jpg);
     background-size: 100%;
     background-position: center;
+}
+
+/*FOOTER*/
+footer {
+    color: gray;
+    text-align: center;
 }
 
