@@ -1,24 +1,41 @@
-h1{
+/*BODY*/
+body{
+    background-color: rgb(14, 12, 12);
+}
+
+/* HEADER  */
+.header h1{
+    color: white;
+    font-family:'Inclusive Sans', sans-serif;
+}
+
+.header {
+    padding-top: 2%;
+}
+
+.header p {
     color: white;
 }
 
-body{
-    background-color: #1f1d1d;
+.header h4{
+    color: white;
+    font-size: 100%;
 }
 
-ul {
+
+.header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
   
-li {
+.header li {
    float: left;
    padding-left: 50px;
 }
   
-li a {
+.header li a {
     font-family:'Inclusive Sans', sans-serif;
     display: block;
     color: white;
@@ -27,10 +44,11 @@ li a {
     text-decoration: none;
 }
  
-li a:hover {
+.header li a:hover {
     background-color: #1a1919;
 }
 
+/*A LA UNE*/
 .a_la_une{
     /*image*/
     background-image: url("Les-eveillees-film-Nina-Bouchaud-Cheval.jpg");
@@ -42,13 +60,57 @@ li a:hover {
 .une_texte{
     /*titre*/
     text-align: center;
-    padding-top: 17%;
+    padding-top: 25%;
     font-size: 250%;
     padding-left: 80%;
     font-family:'Inclusive Sans', sans-serif;
     font-style: italic;
     color: whitesmoke;
-
 }
 
+.buffer{
+    height: 25px;
+}
+
+
+/*TITRES*/
+#titre {
+    color: white;
+}
+
+.titre_pair{
+    text-align: right;
+}
+
+/*CAROUSEL*/
+.carousel-inner h1{
+    color: white;
+    text-align: center;
+}
+
+.carousel-inner h3 {
+    color: gray;
+    text-align: center;
+}
+
+#nouv_1 {
+    padding-top: 10%;
+    background-image: url(snow-in-september-illustration.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+#nouv_2 {
+    padding-top: 10%;
+    background-image: url(curuk-illustration.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+#nouv_3 {
+    padding-top: 10%;
+    background-image: url(Les-eveillees-film-Nina-Bouchaud-Cheval.jpg);
+    background-size: 100%;
+    background-position: center;
+}
 

@@ -3,9 +3,16 @@
 
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>FLØW</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
         <link rel="stylesheet" href=".../style_general.css" type="text/css">
         <link rel="stylesheet" href="style_accueil.css">
+        
+
+        <!-- /*fonts*/ -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap" rel="stylesheet">
@@ -13,9 +20,11 @@
     </head>
 
     <body>
+       
+        <!-- header -->
         <div class="header">
             <ul>
-                <li><h1>Flow production</h1></li>
+                <li><h1>flow</h1></li>
                 <li><p><a ref="/page_distrib">Distribution</a></p></li>
                 <li><p><a ref="/page_prod">Production</a></p></li>
             </ul>
@@ -26,8 +35,114 @@
                 les éveillées
             </div>
         </div>
+
+        <div class="buffer"></div>
+
+        <!-- actualites -->
+        <div id="titre" class="titre_impair">
+            <h1>nos actualités</h1>
+        </div>
+
+        <div id="carouselACTU" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active" id="nouv_1">
+                <h1>SNOW IN SEPTEMBER</h1>
+                <h3>va aux Césars</h3>
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" id="nouv_2">
+                <h1>ÇÜRÜK</h1>
+                <h3>finit son étalonnage</h3>
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" id="nouv_3">
+                <h1>LES EVEILLEES</h1>
+                <h3>fait le tour du monde</h3>
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselACTU" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselACTU" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <div class="buffer"></div>
+
+        <!-- nouveautés -->
+        <div id="titre" class="titre_pair">
+            <h1>nouveautés</h1>
+        </div>
+        <div id="carouselNOUV" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active" id="nouv_1">
+                <h1>SNOW IN SEPTEMBER</h1>
+                <h3>va aux Césars</h3>
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" id="nouv_2">
+                <h1>ÇÜRÜK</h1>
+                <h3>finit son étalonnage</h3>
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" id="nouv_3">
+                <h1>LES EVEILLEES</h1>
+                <h3>fait le tour du monde</h3>
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselNOUV" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselNOUV" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="buffer"></div>
+
+          <!-- catalogue -->
+        <div id="titre" class="titre_impair">
+            <h1>notre catalogue</h1>
+        </div>
+        <div id="carouselCAT" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active" id="nouv_1">
+                <h1>SNOW IN SEPTEMBER</h1>
+                <h3>va aux Césars</h3>
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" id="nouv_2">
+                <h1>ÇÜRÜK</h1>
+                <h3>finit son étalonnage</h3>
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" id="nouv_3">
+                <h1>LES EVEILLEES</h1>
+                <h3>fait le tour du monde</h3>
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCAT" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCAT" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="buffer"></div>
         
 
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
 </html>
