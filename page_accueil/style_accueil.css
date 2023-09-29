@@ -94,23 +94,34 @@ body{
     text-align: center;
 }
 
+#carouselNOUV a:hover{
+    font-style: italic;
+    color: aqua;
+}
 #nouv_1 {
-    padding-top: 10%;
+    padding-top: 12%;
     background-image: url(snow-in-september-illustration.jpg);
     background-size: 100%;
     background-position: center;
 }
 
 #nouv_2 {
-    padding-top: 10%;
+    padding-top: 12%;
     background-image: url(curuk-illustration.jpg);
     background-size: 100%;
     background-position: center;
 }
 
 #nouv_3 {
-    padding-top: 10%;
+    padding-top: 12%;
     background-image: url(Les-eveillees-film-Nina-Bouchaud-Cheval.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+#cat_1 {
+    padding-top: 12%;
+    background-image: url(contadores-illustration.jpg);
     background-size: 100%;
     background-position: center;
 }
@@ -120,4 +131,10 @@ footer {
     color: gray;
     text-align: center;
 }
+
+.infos_contact{
+    float: left;
+    width: 50%
+}
+
 
