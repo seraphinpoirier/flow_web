@@ -2,10 +2,19 @@ h1 {
     text-align: center;
     color: white;
     font-family: 'Inclusive Sans', sans-serif;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 header {
     background-color: black;
+}
+
+header h1:hover {
+    font-style: italic;
 }
 
 .titre {
@@ -17,4 +26,21 @@ header {
 h3{
     text-align: center;
     color: white;
+}
+
+/*FILMS*/
+.film{
+    float:left;
+    padding: 5%;
+    color: white;
+}
+
+.affiche{
+    float: left;
+    width: 20%;
+}
+
+.texte_film{
+    float: left;
+    width: 75%;
 }
