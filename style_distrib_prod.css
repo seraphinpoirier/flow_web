@@ -40,6 +40,8 @@ h3{
     text-align: center;
     float: left;
     width: 20%;
+    color: white;
+    text-decoration: none;
 }
 
 .texte_film{
@@ -52,6 +54,8 @@ h3{
     top: 50%;
     left: 45%;
     display: none;
+    color: white;
+    text-decoration: none;
 }
 
 .affiche:hover .texte_affiche {
