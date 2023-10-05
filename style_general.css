@@ -6,3 +6,14 @@ body{
 .buffer{
     height: 25px;
 }
+
+/*FOOTER*/
+footer {
+    color: gray;
+    text-align: center;
+}
+
+.infos_contact{
+    float: left;
+    width: 50%;
+}
