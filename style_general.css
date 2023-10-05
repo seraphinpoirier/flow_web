@@ -1,7 +1,8 @@
 body{
+    font-family:'Inclusive Sans', sans-serif;
     background-color: black;
 }
 
-h1 {
-    color: aquamarine;
+.buffer{
+    height: 25px;
 }
