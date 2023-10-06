@@ -45,7 +45,7 @@ body{
 }
  
 .header li a:hover {
-    background-color: #1a1919;
+    font-style: italic;
 }
 
 /*A LA UNE*/
