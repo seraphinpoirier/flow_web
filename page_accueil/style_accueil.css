@@ -59,10 +59,11 @@ body{
 
 .une_texte{
     /*titre*/
-    text-align: center;
+    text-align: right;
     padding-top: 25%;
-    font-size: 250%;
-    padding-left: 80%;
+    font-size: 150%;
+    padding-left: 75%;
+    padding-right: 3%;
     font-family:'Inclusive Sans', sans-serif;
     font-style: italic;
     color: whitesmoke;
@@ -131,8 +132,4 @@ body{
     background-size: 100%;
     background-position: center;
 }
-
-
-
-
-
+ 
