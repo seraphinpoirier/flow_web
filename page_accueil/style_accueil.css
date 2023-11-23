@@ -48,88 +48,12 @@ body{
     font-style: italic;
 }
 
-/*A LA UNE*/
-.a_la_une{
-    /*image*/
-    background-image: url("../images/Les-eveillees-film-Nina-Bouchaud-Cheval.jpg");
-    background-position: center;
-    background-size: 100%;
+/*CAROUSEL*/
+.container{
     width: 100%;
 }
 
-.une_texte{
-    /*titre*/
-    text-align: right;
-    padding-top: 25%;
-    font-size: 150%;
-    padding-left: 75%;
-    padding-right: 3%;
-    font-family:'Inclusive Sans', sans-serif;
-    font-style: italic;
-    color: whitesmoke;
+.carousel-inner .img{
+    max-height: 20%;
+    position: center;
 }
-
-
-
-/*TITRES*/
-#titre h1{
-    color: white;
-    padding: 20px;
-    text-decoration: none;
-}
-
-#titre a{
-    text-decoration: none;
-}
-
-.titre_pair{
-    text-align: right;
-}
-
-#titre h1:hover {
-    font-style: italic;
-}
-
-/*CAROUSEL*/
-.carousel-inner h1{
-    color: white;
-    text-align: center;
-}
-
-.carousel-inner h3 {
-    color: gray;
-    text-align: center;
-}
-
-#carouselNOUV a:hover{
-    font-style: italic;
-    color: aqua;
-}
-#nouv_1 {
-    padding-top: 12%;
-    background-image: url(../images/snow-in-september-illustration.jpg);
-    background-size: 100%;
-    background-position: center;
-}
-
-#nouv_2 {
-    padding-top: 12%;
-    background-image: url(../images/curuk-illustration.jpg);
-    background-size: 100%;
-    background-position: center;
-}
-
-#nouv_3 {
-    padding-top: 12%;
-    background-image: url(../images/Les-eveillees-film-Nina-Bouchaud-Cheval.jpg);
-    background-size: 100%;
-    background-position: center;
-}
-
-#cat_1 {
-    padding-top: 12%;
-    background-image: url(../images/contadores-illustration.jpg);
-    background-size: 100%;
-    background-position: center;
-}
- 
