@@ -57,3 +57,28 @@ body{
     max-height: 20%;
     position: center;
 }
+
+.image_numero_1{
+    background-image: url(../images/contadores-illustration.jpg);
+    background-size: cover;
+    
+}
+
+.titre_carousel{
+    padding: 15%;
+    text-align: center;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Red Rose', serif;
+    color: white;
+    font-weight: 700;
+}
+
+.image_numero_2{
+    background-image: url(../images/Les-eveillees-film-Nina-Bouchaud-Cheval.jpg);
+    background-size: cover;
+}
+
+.image_numero_3 {
+    background-image: url(../images/snow-in-september-illustration.jpg);
+    background-size: cover;
+}
