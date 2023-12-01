@@ -48,7 +48,7 @@ body{
     font-style: italic;
 }
 
-/*CAROUSEL*/
+/*CAROUSEL_1*/
 .container{
     width: 100%;
 }
@@ -81,4 +81,34 @@ body{
 .image_numero_3 {
     background-image: url(../images/snow-in-september-illustration.jpg);
     background-size: cover;
+}
+
+/*CAROUSEL 2*/
+.image_numero_1_small{
+    background-image: url(../images/contadores-illustration.jpg);
+    width: 40%;
+}
+
+.image_numero_2_small{
+    background-image: url(../images/Les-eveillees-film-Nina-Bouchaud-Cheval.jpg);
+    width: 40%;
+}
+
+.image_numero_3_small{
+    background-image: url(../images/snow-in-september-illustration.jpg);
+    width: 40%;
+}
+
+.titre_image_1{
+    width: 55%;
+    padding: 5%;
+    text-align: left;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Red Rose', serif;
+    color: white;
+    font-weight: 700;
+}
+
+.content{
+    display: flex;
 }
