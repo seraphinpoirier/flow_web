@@ -132,6 +132,18 @@ body{
     display: flex;
 }
 
+
+.titre a {
+    text-decoration: none;
+    color: white;
+}
+
+.titre a:hover{
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+
 /*FOOTER*/
 .bas_de_page{
     display: flex;
@@ -139,18 +151,18 @@ body{
 }
 
 .bdp{
-    width: 33%;
     text-align: center;
+    width: 33%;
+}
+
+.bdp a{
     color: grey;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover{
-    font-style: italic;
-    color: white;
     text-decoration: none;
 }
+
+.bdp a:hover{
+    color: lightgray;
+    text-decoration: none;
+}
+
+
