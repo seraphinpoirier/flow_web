@@ -4,14 +4,23 @@ body{
 }
 
 /* HEADER  */
-.header h1{
-    color: white;
-    font-family:'Inclusive Sans', sans-serif;
+.header img{
+    height: 1.5%;
+    display: block;
+    margin: auto;
+    
 }
 
+.header h1 {
+    text-align: center;
+    font-family:'Inclusive Sans', sans-serif;
+    font-family: 'Red Rose', serif;
+    color: white;
+}
+/*
 .header {
     padding-top: 2%;
-}
+}*/
 
 .header p {
     color: white;
@@ -30,22 +39,32 @@ body{
     overflow: hidden;
 }
   
-.header li {
+.header li{
    float: left;
    padding-left: 50px;
 }
   
 .header li a {
     font-family:'Inclusive Sans', sans-serif;
+    font-family: 'Red Rose', serif;
     display: block;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-decoration: none;
+    padding-top: 15px;
 }
  
 .header li a:hover {
     font-style: italic;
+}
+
+.titre{
+    padding: 0.5%;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Red Rose', serif;
+    color: white;   
 }
 
 /*CAROUSEL_1*/
@@ -111,4 +130,27 @@ body{
 
 .content{
     display: flex;
+}
+
+/*FOOTER*/
+.bas_de_page{
+    display: flex;
+    padding: 2.5%;
+}
+
+.bdp{
+    width: 33%;
+    text-align: center;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    font-style: italic;
+    color: white;
+    text-decoration: none;
 }
