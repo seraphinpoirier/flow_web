@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+
+/*HEADER*/
+.hautdepage{
+    display: flex;
+    padding: 2.5%;
+}
+
+.hdp {
+    text-align: center;
+    width: 33%;
+    
+    font-family:'Inclusive Sans', sans-serif;
+    font-family: 'Red Rose', serif;
+}
+
+.hdp a{
+    text-decoration: none;
+    color: white;
+}
+
+.hdp a:hover{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.hdp #2{
+    font-size: larger;
+}
+
+/*BODY*/
+h1{
+    font-family:'Inclusive Sans', sans-serif;
+    font-family: 'Red Rose', serif;
+    color:white;
+    text-align: center;    
+}
+
+h3{
+    font-family:'Inclusive Sans', sans-serif;
+    font-family: 'Red Rose', serif;
+    color:white;
+    text-align: center;    
+    padding-bottom: 2%;   
+}
+
+.affiche {
+    display: flex;
+    justify-content: center;
+}
+
+.affiche img{
+    width: 25%;
+}
