@@ -1,5 +1,8 @@
 body{
     background-color: black;
+    font-family:'Inclusive Sans', sans-serif;
+    font-family: 'Red Rose', serif;
+    color:white;
 }
 
 /*HEADER*/
@@ -31,26 +34,42 @@ body{
 }
 
 /*BODY*/
-h1{
+.body{
     font-family:'Inclusive Sans', sans-serif;
     font-family: 'Red Rose', serif;
     color:white;
+}
+
+h1{
+    
     text-align: center;    
 }
 
 h3{
-    font-family:'Inclusive Sans', sans-serif;
-    font-family: 'Red Rose', serif;
-    color:white;
     text-align: center;    
     padding-bottom: 2%;   
+}
+
+/*BLOCS*/
+.block{
+    display: flex;
 }
 
 .affiche {
     display: flex;
     justify-content: center;
+    width: 50%;
 }
 
 .affiche img{
-    width: 25%;
+    width: 50%;
 }
+
+.synopsis {
+    width: 50%
+}
+
+.synopsis p{
+    width: 75%;
+}
+
