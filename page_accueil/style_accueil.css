@@ -144,25 +144,6 @@ body{
     text-decoration: none;
 }
 
-/*FOOTER*/
-.bas_de_page{
-    display: flex;
-    padding: 2.5%;
-}
 
-.bdp{
-    text-align: center;
-    width: 33%;
-}
-
-.bdp a{
-    color: grey;
-    text-decoration: none;
-}
-
-.bdp a:hover{
-    color: lightgray;
-    text-decoration: none;
-}
 
 

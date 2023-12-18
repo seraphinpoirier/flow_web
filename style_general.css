@@ -1,24 +1,29 @@
-body{
-    font-family:'Inclusive Sans', sans-serif;
-    background-color: black;
-}
-
-.buffer{
-    height: 25px;
-}
-
 /*FOOTER*/
-footer {
-    color: gray;
+.bas_de_page{
+    display: flex;
+    padding: 2.5%;
+}
+
+.bdp{
     text-align: center;
+    width: 33%;
 }
 
-.infos_contact{
-    float: left;
-    width: 50%;
+.bdp a{
+    color: grey;
+    text-decoration: none;
 }
 
-p{
-    color: white;
+.bdp a:hover{
+    color: lightgray;
+    text-decoration: none;
+}
+
+/*BODY*/
+body{
+    background-color: black;
+    font-family:'Inclusive Sans', sans-serif;
+    font-family: 'Red Rose', serif;
+    color:white;
 }
 
