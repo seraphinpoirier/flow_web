@@ -48,6 +48,11 @@ h4 a{
     text-decoration: none;
 }
 
+.illustration{
+    background-size: cover;
+    padding: 15%;
+}
+
 /*BLOCS*/
 .block{
     display: flex;
@@ -72,16 +77,12 @@ h4 a{
 }
 
 .team{
-    width:33%;
-    padding: 5%;
+    width:26%;
+    padding-top: 5%;
 }
 
-.team #1{
-    padding-left: 5%;
-}
-
-.team #3{
-    padding-right: 5%;
+.buffer{
+    width: 10%;
 }
 
 
