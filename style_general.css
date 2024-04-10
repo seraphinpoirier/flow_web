@@ -1,5 +1,9 @@
 /*FOOTER*/
 .bas_de_page{
+    background-color: #D2CECB;
+}
+
+.bas_de_page{
     display: flex;
     padding: 2.5%;
 }
@@ -21,9 +25,9 @@
 
 /*BODY*/
 body{
-    background-color: black;
+    background-color: #FFFFFF;
     font-family:'Inclusive Sans', sans-serif;
     font-family: 'Red Rose', serif;
-    color:white;
+    color:#063084;
 }
 
