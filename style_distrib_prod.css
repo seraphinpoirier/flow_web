@@ -1,16 +1,23 @@
+
+
 h1 {
     text-align: center;
-    color: white;
-    font-family: 'Inclusive Sans', sans-serif;
+    color:#063084;
     text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    color: #F9E701
 }
 
 a{
     text-decoration: none;
+    color:#063084;
 }
 
 header {
-    background-color: black;
+    background-color: white;
 }
 
 header h1:hover {
@@ -25,14 +32,15 @@ header h1:hover {
 
 h3{
     text-align: center;
-    color: white;
+    color: #063084;
 }
 
 /*FILMS*/
 .film{
     float:left;
-    color: white;
+    color: #063084;
     padding-bottom: 2.5%;
+    padding-left: 15%;
 }
 
 .affiche{
@@ -40,13 +48,13 @@ h3{
     text-align: center;
     float: left;
     width: 20%;
-    color: white;
+    color: #063084;
     text-decoration: none;
 }
 
 .texte_film{
     float: left;
-    width: 75%;
+    width: 50%;
 }
 
 .texte_affiche {
@@ -71,7 +79,7 @@ h3{
 }
 
 .actu{
-    color: white;
+    color: #063084;
     text-align: center;
 
 }
