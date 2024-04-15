@@ -31,7 +31,7 @@
 .body{
     font-family:'Inclusive Sans', sans-serif;
     font-family: 'Red Rose', serif;
-    color:white;
+    background-image: url('/images/background.png');
 }
 
 h1{

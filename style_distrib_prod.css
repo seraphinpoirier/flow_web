@@ -1,3 +1,6 @@
+body{
+    background-image: url('images/background.png');
+}
 
 
 h1 {
@@ -55,6 +58,8 @@ h3{
 .texte_film{
     float: left;
     width: 50%;
+    background-color: white;
+    border-radius: 15%;
 }
 
 .texte_affiche {
