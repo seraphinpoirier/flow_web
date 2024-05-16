@@ -1,7 +1,7 @@
 /*HEADER*/
 .hautdepage{
     display: flex;
-    padding: 2.5%;
+    padding-top: 1.5%;
     background-color: #FFFFFF;
 }
 
@@ -9,8 +9,7 @@
     text-align: center;
     width: 33%;
     font-size: 25px;
-    font-family:'Inclusive Sans', sans-serif;
-    font-family: 'Red Rose', serif;
+    font-family: "Homemade Apple", cursive;
 }
 
 .hdp a{
@@ -35,7 +34,7 @@
 }
 
 h1{
-    
+    font-family: "Homemade Apple", cursive;
     text-align: center;    
 }
 

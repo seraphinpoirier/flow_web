@@ -1,11 +1,39 @@
+/*HEADER*/
+.hautdepage{
+    display: flex;
+    padding-top: 1.5%;
+    background-color: #FFFFFF;
+}
+
+.hdp {
+    text-align: center;
+    width: 33%;
+    font-size: 25px;
+    font-family: "Homemade Apple", cursive;
+}
+
+.hdp a{
+    text-decoration: none;
+    color: #063084;
+}
+
+.hdp a:hover{
+    text-decoration: none;
+    color: #7196B0;
+}
+
+.hdp #2{
+    font-size: larger;
+}
+
 /*FOOTER*/
 .bas_de_page{
-    background-color: #D2CECB;
+    background: linear-gradient(white, #B7D2E6);
 }
 
 .bas_de_page{
     display: flex;
-    padding: 2.5%;
+    padding: 2%;
 }
 
 .bdp{
