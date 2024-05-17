@@ -26,6 +26,14 @@
     font-size: larger;
 }
 
+.hdp img{
+    height: 85px;
+}
+
+.hpd#1{
+    font-size: 50px;
+}
+
 /*FOOTER*/
 .bas_de_page{
     background: linear-gradient(white, #B7D2E6);

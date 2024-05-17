@@ -5,8 +5,8 @@ body{
 }
 
 /* HEADER  */
-.header img{
-    height: 1.5%;
+.logo_header img{
+    height: 100px;
     display: block;
     margin: auto;
     
