@@ -88,6 +88,21 @@ h5{
     color: white;
 }
 
+.selections_prix{
+    display: block;
+    margin: auto;
+}
+
+#prix{
+    float: left;
+    width: 40%
+}
+
+#selection{
+    margin-left: 40%;
+    width: 40%;
+}
+
 /*TRAILER*/
 .video{
     display: block;

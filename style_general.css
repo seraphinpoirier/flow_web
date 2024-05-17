@@ -27,7 +27,7 @@
 }
 
 .hdp img{
-    height: 85px;
+    height: 75px;
 }
 
 .hpd#1{
@@ -61,11 +61,12 @@
 }
 
 /*PAGE CONTACT*/
-.texte_contact{
-    align-items: center;
+.texte_contact p{
+    text-align: center;
 }
 
 #contact{
+    text-align: center;
     font-family: "Homemade Apple", cursive;
 }
 
