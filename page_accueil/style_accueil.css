@@ -79,7 +79,7 @@ body{
     background-size: cover;
 }
 
-/*CAROUSEL 2*/
+/*CAROUSEL PROD*/
 .image_numero_1_small{
     background-image: url(../images/contadores-illustration.jpg);
     width: 40%;
@@ -95,6 +95,24 @@ body{
     width: 40%;
 }
 
+/*CAROUSEL DISTRIB*/
+
+#dis1{
+    background-image: url(../images/charbon-illustration.jpg);
+    width: 40%;
+}
+
+#dis2{
+    background-image: url(../images/laPassante/la_passante_still.png);
+    width: 40%;
+}
+
+#dis3{
+    background-image: url(../images/snow-in-september-illustration.jpg);
+    width: 40%;
+}
+
+/*CAROUSEL DISTRIB/PROD GENERAL*/
 .titre_image_1{
     width: 55%;
     padding: 5%;
