@@ -60,6 +60,15 @@
     text-decoration: none;
 }
 
+/*PAGE CONTACT*/
+.texte_contact{
+    align-items: center;
+}
+
+#contact{
+    font-family: "Homemade Apple", cursive;
+}
+
 /*BODY*/
 body{
     font-family: 'Raleway', sans-serif;

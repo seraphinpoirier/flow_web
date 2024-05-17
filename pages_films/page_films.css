@@ -64,13 +64,28 @@ h5{
     margin: auto;
 }
 
+#screening{
+    float: left;
+    width: 40%;
+}
+
+#dl_technique{
+    margin-left: 40%;
+    width: 40%;
+}
+
 .RScre{
     background-color: #063084;
-    padding: 1%;
+    padding: 1.5%;
     border-style: none;
     border-radius: 2px;
     color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+}
+
+.RScre a {
+    text-decoration: none;
+    color: white;
 }
 
 /*TRAILER*/
