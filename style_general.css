@@ -32,6 +32,7 @@
 }
 
 .bas_de_page{
+    font-family: "Homemade Apple", cursive;
     display: flex;
     padding: 2%;
 }
