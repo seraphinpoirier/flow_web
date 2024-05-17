@@ -22,15 +22,12 @@
     color: #7196B0;
 }
 
-.hdp #2{
-    font-size: larger;
-}
 
 /*BODY*/
 .body{
     font-family:'Inclusive Sans', sans-serif;
     font-family: 'Red Rose', serif;
-    background-image: url('/images/background.png');
+    background-image: url('../images/background.png');
 }
 
 h1{
@@ -48,6 +45,10 @@ h4 a{
     text-decoration: none;
 }
 
+h5{
+    font-family: "Homemade Apple", cursive;
+}
+
 .illustration{
     background-size: cover;
     padding: 15%;
@@ -55,6 +56,32 @@ h4 a{
 
 .main_infos{
     padding-top: 1%;
+}
+
+/*GESTION BOUTONS*/
+.bouton{
+    display: block;
+    margin: auto;
+}
+
+.RScre{
+    background-color: #063084;
+    padding: 1%;
+    border-style: none;
+    border-radius: 2px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+}
+
+/*TRAILER*/
+.video{
+    display: block;
+    margin: auto;
+}
+
+.trailer h5{
+    text-align: center;
+    font-family: "Homemade Apple", cursive;
 }
 
 /*BLOCS*/
