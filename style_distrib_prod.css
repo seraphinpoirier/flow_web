@@ -33,9 +33,20 @@ h3{
 
 /*IMAGE ACCUEIL*/
 .image_illustration{
-    background-image: url('images/laPassante/la_passante_still.png');
     padding: 10%;
     background-position: center;
+}
+
+.image_illustration#production{
+    background-image: url('images/supernova/supernova_still.jpg');
+}
+
+.image_illustration#distribution{
+    background-image: url('images/laPassante/la_passante_still.png');
+}
+
+.image_illustration#aboutus{
+    background-image: url('images/lonelyPeople/LPELP_still.png');
 }
 
 /*INFOS ACCUEIL*/
@@ -94,5 +105,16 @@ h3{
     color: #063084;
     text-align: center;
 
+}
+
+/*CONTACT*/
+a#contact:hover{
+    font-style: italic;
+}
+
+/*ABOUT US*/
+p#aboutus{
+    text-align: center;
+    border-radius: 2px;
 }
 
