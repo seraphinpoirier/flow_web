@@ -55,6 +55,29 @@ h3{
     text-align: center; 
 }
 
+/*NAVIGATION*/
+.navigation{
+    margin: 0 auto;
+    width: 75px;
+}
+
+.b_nv{
+    background-color: #063084;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+#current{
+    background-color: #F9E701;
+    color: #063084;
+}
+
 /*FILMS*/
 .film{
     float:left;

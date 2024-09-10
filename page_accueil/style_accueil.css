@@ -70,12 +70,22 @@ body{
 }
 
 .image_numero_2{
-    background-image: url(../images/lonelyPeople/LPELP_still.png);
+    background-image: url(../images/SolBeni/solbeni_banniere.png);
     background-size: cover;
 }
 
 .image_numero_3 {
-    background-image: url(../images/contadores/contadores-illustration.jpg);
+    background-image: url(../images/sadDiva/sadDiva_still.png);
+    background-size: cover;
+}
+
+.image_numero_4 {
+    background-image: url(../images/lonelyPeople/LPELP_still.png);
+    background-size: cover;
+}
+
+.image_numero_5 {
+    background-image: url(../images/painsDeMiel/Stills_1.1.5.jpg);
     background-size: cover;
 }
 
