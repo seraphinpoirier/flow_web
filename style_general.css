@@ -70,6 +70,19 @@
     font-family: "Homemade Apple", cursive;
 }
 
+.reseaux{
+    text-align: center;
+    font-family: "Homemade Apple", cursive;
+}
+
+form{
+    text-align: center;
+}
+
+form label{
+    font-family: "Homemade Apple", cursive;
+}
+
 /*BODY*/
 body{
     font-family: 'Raleway', sans-serif;
