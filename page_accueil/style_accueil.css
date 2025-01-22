@@ -1,46 +1,43 @@
 /*BODY*/
 /*url palette https://coolors.co/063084-ffffff-f9e701-d2cecb-7196b0 */
 body{
-    background-color: #000000;
+    background-color: white;
 }
 
 /* HEADER  */
-.logo_header img{
-    height: 100px;
-    display: block;
-    margin: auto;
-    
+.hautdepage{
+    display: flex;
+    padding-top: 1.5%;
+    background-color: #FFFFFF;
 }
 
-.header h1 {
+.hdp {
     text-align: center;
+    width: 33%;
+    font-size: 25px;
     font-family: "Homemade Apple", cursive;
-    color: white;
-}
-/*
-.header {
-    padding-top: 2%;
-}*/
-
-.header p {
-    color: white;
 }
 
-.header h4{
-    color: white;
-    font-size: 100%;
+.hdp a{
+    text-decoration: none;
+    color: #063084;
 }
 
-.titre{
-    padding: 0.5%;
-    font-family: 'Inclusive Sans', sans-serif;
-    font-family: 'Red Rose', serif;
-    color: white;  
-    text-align: center; 
+.hdp a:hover{
+    text-decoration: none;
+    color: #7196B0;
 }
 
-.titre h1{
-    font-family: "Homemade Apple", cursive;
+.hdp #2{
+    font-size: larger;
+}
+
+.hdp img{
+    height: 75px;
+}
+
+.hpd#1{
+    font-size: 50px;
 }
 
 /*CAROUSEL_1*/
@@ -52,13 +49,12 @@ body{
 .carousel-inner .img{
     max-height: 20%;
     position: center;
-    background-color: #063084;
+    background-color: white;
 }
 
 .image_numero_1{
     background-image: url(../images/supernova/supernova_still.jpg);
     background-size: cover;
-    
 }
 
 .titre_carousel{
@@ -87,6 +83,11 @@ body{
 .image_numero_5 {
     background-image: url(../images/painsDeMiel/Stills_1.1.5.jpg);
     background-size: cover;
+}
+
+a#carCont{
+    height: 50%;
+    align-self: center;
 }
 
 /*CAROUSEL PROD*/
@@ -155,12 +156,11 @@ body{
 
 /*FOOTER*/
 .bas_de_page{
-    background-color: black;
+    background-color: white;
 }
 
 .bas_de_page{
     display: flex;
-    padding: 2%;
     font-family: "Homemade Apple", cursive;
 }
 

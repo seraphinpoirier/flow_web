@@ -1,15 +1,60 @@
-<!DOCTYPE html>
-<html lang="fr">
+<?php
+$errors = '';
+$myemail = 'poirier.seraphin@gmail.com';//<-----Put Your email address here.
+if(empty($_POST['name'])  || 
+   empty($_POST['email']) || 
+   empty($_POST['message']))
+{
+    $errors .= "\n Error: all fields are required";
+}
+
+$name = $_POST['name']; 
+$email_address = $_POST['email']; 
+$message = $_POST['message']; 
+
+if (!preg_match(
+"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
+$email_address))
+{
+    $errors .= "\n Error: Invalid email address";
+}
+
+if( empty($errors))
+
+{
+
+$to = $myemail;
+
+$email_subject = "Contact form submission: $name";
+
+$email_body = "You have received a new message. ".
+
+" Here are the details:\n Name: $name \n ".
+
+"Email: $email_address\n Message \n $message";
+
+$headers = "From: $myemail\n";
+
+$headers .= "Reply-To: $email_address";
+
+mail($to,$email_subject,$email_body,$headers);
+
+//redirect to the 'thank you' page
+ 
+header('Location: page_contact.html');
+
+}
+?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Envoi d'un message par formulaire</title>
+	<title>Contact form handler</title>
 </head>
 
 <body>
-    <?php
-    $retour = mail('poirier.seraphin@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: webmaster@monsite.fr');
-    if ($retour)
-        echo '<p>Votre message a bien été envoyé.</p>';
-    ?>
+    <h1>bjr</h1>
+<!-- This page is displayed only if there is some error -->
+
 </body>
 </html>
